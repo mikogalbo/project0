@@ -1,0 +1,91 @@
+$font: 'Pangolin';
+$text-color: #FFEC94;   
+$background: #FFAEAE;
+$fontsize: 30px;
+.background-design {
+    background-color:$background;
+}
+
+%text {
+    text-align: center;
+    font-family: $font;
+    color: $text-color;
+}
+
+.headers {
+    @extend %text;
+    font-size: 48px;
+    padding-bottom: 35px;
+}
+
+.headers-2 {
+    @extend %text;
+    font-size: 42px;
+    padding-bottom: 15px;
+}
+
+.text {
+    @extend %text;
+    font-size: 20px;
+}
+
+.column-titles {
+    @extend %text;
+    font-size: 36px;
+}
+
+.rounded-corners {
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+.video-centering {
+    text-align: center;
+}
+
+.image-padding {
+   width: 40%;
+   height: 30%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 25px;
+}
+
+#introduction {
+    @extend %text;
+    font-size: $fontsize;
+    padding-bottom: 25px;
+}
+.izone-text {
+    @extend %text;
+    font-size: $fontsize;
+}
+
+#returnhome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// titletracklives.html
+
+.musicvideo {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 30px;
+   padding-right: 30px; 
+}
+
+// members.html
+
+.block {    
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 30px;
+   padding-right: 30px; 
+   margin-left: 30px;
+}
+
+
+
+

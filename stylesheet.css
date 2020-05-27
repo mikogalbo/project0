@@ -1,0 +1,77 @@
+.background-design {
+  background-color: #FFAEAE;
+}
+
+.headers, .headers-2, .text, .column-titles, #introduction, .izone-text {
+  text-align: center;
+  font-family: "Pangolin";
+  color: #FFEC94;
+}
+
+.headers {
+  font-size: 48px;
+  padding-bottom: 35px;
+}
+
+.headers-2 {
+  font-size: 42px;
+  padding-bottom: 15px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.column-titles {
+  font-size: 36px;
+}
+
+.rounded-corners {
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+.video-centering {
+  text-align: center;
+}
+
+.image-padding {
+  width: 40%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+}
+
+#introduction {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.izone-text {
+  font-size: 30px;
+}
+
+#returnhome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.musicvideo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.block {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
